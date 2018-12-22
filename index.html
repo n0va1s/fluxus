@@ -37,16 +37,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item" itemscope itemtype="http://fluxus.work/index.html#about">
               <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" itemscope itemtype="http://fluxus.work/index.html#services">
               <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" itemscope itemtype="http://fluxus.work/index.html#portfolio">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Catálogo</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" itemscope itemtype="http://fluxus.work/index.html#contact">
               <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
             </li>
           </ul>
@@ -77,8 +77,8 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">Como está sua área de TI?</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Seu time está atualizado?<br />Conhece as melhores práticas?<br />Possui um norte claro?<br />Seus clientes estão satisfeitos?<br />Não?</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Então comece!</a>
+            <p class="text-faded mb-4">A comunicação está difícil?<br />Os times levam meses para entregar algo?<br />Os clientes estão reclamando?</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Podemos ajudar</a>
           </div>
         </div>
       </div>
@@ -118,7 +118,7 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-arrows-alt text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Governança</h3>
               <p class="text-muted mb-0">Monitorar, Avaliar e Direcionar a sua TI</p>
             </div>
@@ -140,22 +140,27 @@
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
+          <div class="col-lg-6 mx-auto text-center">
             <h2 class="section-heading">Fale com a gente</h2>
             <hr class="my-4">
             <p class="mb-5">Pronto pra dar o próximo passo? Mande uma mensagem!</p>
+          </div>
+          <div class="col-lg-6 mx-auto text-center">
+            <img src="img/fluxus_logo.png" alt="Logomarca da Fluxus">
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>+55(61)98154-6988</p>
+            <p><a itemprop="telephone" href="tel:+5561981546988">+55(61)98154-6988</a></p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="mailto:comercial@fluxus.com">comercial@fluxus.com</a>
-            </p>
+            <i class="fa fa-envelope fa-3x mb-3 sr-contact"></i>
+            <p><a itemprop="email" href="mailto:comercial@fluxus.com">comercial@fluxus.com</a></p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-facebook-f fa-3x mb-3 sr-contact"></i>
+            <p><a itemprop="url" href="https://www.facebook.com/fluxus/">Facebook</a></p>
           </div>
         </div>
       </div>
