@@ -2,13 +2,22 @@
 <html lang="en">
 
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104095614-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-104095614-2');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Fluxus -> método + tecnologia = competitividade">
+    <meta name="description" content="Fluxus, governança de TI para maior competitividade">
     <meta name="author" content="jp.trabalho@gmail.com">
+    <meta name="keywords" content="Governança de TI,PDTI,PETI,COBIT, ITIL, LGPD">
 
-    <title>Fluxus -> educação + tecnologia = competitividade</title>
+    <title>Fluxus - governança da sua TI</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,11 +36,10 @@
   </head>
 
   <body id="page-top">
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Fluxus</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" itemprop="name">Fluxus</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -57,15 +65,15 @@
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-10 mx-auto" itemscope itemtype="https://data-vocabulary.org/Organization">
             <h1 class="text-uppercase">
-              <strong>Mais que compliance</strong>
+              <strong>Governança de TI</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">A Fluxus usa educação e tecnologia para potencializar a TI da sua empresa</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Quero conhecer</a>
+            <p class="text-faded mb-5">Seus clientes esperam mais da sua TI?</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Podemos ajudar</a>
           </div>
         </div>
       </div>
@@ -75,10 +83,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">Como está sua área de TI?</h2>
+            <h2 class="section-heading text-white">TI = Resultado</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">A comunicação está difícil?<br />Os times levam meses para entregar algo?<br />Os clientes estão reclamando?</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Podemos ajudar</a>
+            <p class="text-faded mb-4">
+              Priorize a experiência do seu cliente<br />
+              Entregue em ciclos curtos<br />
+              Responda às principais perguntas dos executivos</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Saiba como</a>
           </div>
         </div>
       </div>
@@ -93,12 +104,12 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container"> 
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Educação</h3>
+              <h3 class="mb-3">Treinamento</h3>
               <p class="text-muted mb-0">Práticas ágeis para para times não software</p>
             </div>
           </div>
@@ -136,7 +147,7 @@
         <a class="btn btn-light btn-xl sr-button" href="doc/FluxusCatalogo2019.pdf" target="_blank">Clique aqui</a>
       </div>
     </section>
-
+    
     <section id="contact">
       <div class="container">
         <div class="row">
@@ -149,14 +160,15 @@
             <img src="img/fluxus_logo.png" alt="Logomarca da Fluxus">
           </div>
         </div>
+        
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p><a itemprop="telephone" href="tel:+5561981546988">+55(61)98154-6988</a></p>
+            <p><a itemprop="tel" href="tel:+5561981546988">+55(61)98154-6988</a></p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope fa-3x mb-3 sr-contact"></i>
-            <p><a itemprop="email" href="mailto:comercial@fluxus.com">comercial@fluxus.com</a></p>
+            <p><a itemprop="email" href="mailto:comercial@fluxus.com">faleconosco@fluxus.com</a></p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-facebook-f fa-3x mb-3 sr-contact"></i>
